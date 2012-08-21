@@ -1,0 +1,14 @@
+{application, erlup,
+ [
+  {description, ""},
+  {vsn, "0.0.1"},
+  {modules, [erlup]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { erlup_app, []}},
+  {env, []}
+ ]}.
+
